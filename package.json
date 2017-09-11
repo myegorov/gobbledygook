@@ -1,0 +1,36 @@
+{
+  "name": "gobbledygook",
+  "version": "1.0.0",
+  "description": "Maksim Yegorov's cabinet of simple machines",
+  "author": "Maksim Yegorov",
+  "license": "MIT",
+  "main": "build.js",
+  "scripts": {
+    "pre-build": "npm install && rm -rf ./dist",
+    "start": "node .",
+    "deploy": "./deploy.sh"
+  },
+  "engines": {
+    "node": ">=7"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "1.3.2"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.2",
+    "helper-moment": "^0.2.0",
+    "metalsmith": "^2.0.1",
+    "metalsmith-collections": "^0.7.0",
+    "metalsmith-drafts": "0.0.1",
+    "metalsmith-if": "^0.1.1",
+    "metalsmith-layouts": "^1.4.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-metallic": "^0.3.1",
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-redirect": "^2.1.0",
+    "metalsmith-serve": "0.0.4",
+    "metalsmith-watch": "^1.0.1"
+  },
+  "private": true
+}

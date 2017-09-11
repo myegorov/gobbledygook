@@ -1,0 +1,449 @@
+html {
+	font-size: 100%;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  background-color: #fcfcfc;
+  color: #222;
+  /* border-right: 2px solid #398ad5; */
+  /* border-left: 2px solid #398ad5; */
+  margin: 0;
+  min-height: 100%; min-height: 100vh;
+}
+
+#wrapper {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 120px 7% 80px 7%;
+}
+
+header {
+  display: block;
+  font-family: 'Karla'; font-size: 1.4rem; font-weight: 400; letter-spacing: -0.035rem;
+  padding: 10px 0;
+  color: black;
+}
+
+header a:link, header a:visited {
+  text-decoration: none;
+  /* color: #8071b8; */
+  color: #b41017;
+}
+
+header a:hover {
+  text-decoration: underline #060609;
+  color: #060609;
+}
+
+header span.back-arrow {
+  display: inline-block;
+  width: 20px;
+}
+
+header span.navbar {
+  display: block;
+  float: right;
+  /* width: 100%; */
+  font-family: 'Karla'; font-size: 1.4rem; 
+  font-weight: 700; letter-spacing: -0.035rem;
+}
+
+header .back-to-home {
+  display: inline-block;
+  margin-left: -20px;
+}
+
+h1 {
+  font-family: 'Karla', 'Cormorant', serif;
+	letter-spacing: -0.1rem;
+  font-size: 3.35rem;
+  line-height: 3.5rem;
+  width: 87%;
+	margin-bottom: 0.5em;
+	font-kerning: auto;
+}
+
+div.meta p {
+  display: block;
+  font-size: 1.23rem; line-height: 1.5em;
+  font-weight: bold;
+  margin-top: 30px; margin-bottom: 30px;
+  font-family: 'Karla';
+}
+
+h2 {
+  font-family: 'Karla', 'Cormorant', serif;
+  font-size: 20pt;
+  margin-top: 2.3em; 
+}
+
+h3 {
+  font-family: 'Karla', 'Cormorant', serif;
+  font-size: 18pt;
+  margin-top: 1.5em;
+}
+
+article {
+  font-size: 1.15rem;
+  line-height: 1.85rem;
+  letter-spacing: -0.035rem;
+}
+
+article p {
+	text-align: justify; 
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+	margin-bottom: 1.5em;
+	font-kerning: auto;
+}
+
+article em {
+  font-family: 'Karla', serif;
+  font-style: italic;
+}
+
+div.meta span {
+  display: inline-block;
+  font-family: 'Karla';
+  padding: 2px 0;
+  color: grey;
+  text-align: left;
+}
+
+article a:link {
+  color: black;
+  border-bottom: 1px solid grey;
+  text-decoration: none;
+}
+
+article a:visited {
+  color: #555;
+}
+
+article a:hover {
+  color: red;
+  border-bottom-color: gray;
+}
+
+pre {
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+code {
+	font-size: 12pt;
+}
+
+.update {
+  font-family: 'Karla', serif; font-size: 16pt;
+  color: red;
+  font-size: 14pt;
+}
+
+footer {
+  margin-top: 40px; padding-top: 20px;
+  font-family: 'Karla', serif; font-size: 16pt;
+  line-height: 1.4em;
+  color: #B41017;
+  /* color: red; */
+}
+
+footer .author {
+  color: black;
+}
+
+footer a:link, footer a:visited {
+  color: red;
+  border-bottom: 1px solid gray;
+  text-decoration: none;
+}
+
+footer a.back-to-home {
+  display: inline-block;
+  border: 0;
+}
+
+footer a.back-to-home:hover {
+  color: red;
+}
+
+footer a.back-to-home:hover:before {
+  content: "â† ";
+  margin-left: -26.5px;
+}
+
+footer a:hover {
+  color: black;
+  border-bottom-color: black;
+}
+
+footer .colophon {
+  font-size: 14pt;
+  color: grey;
+}
+
+/* Home */
+
+ul.recent {
+	margin: 20px 0 0 0;
+	padding: 0;
+	font-family: 'Karla', serif;
+	list-style-type: none;
+	color: grey;
+}
+
+ul.recent li {
+	clear: both;
+	padding-top: 30px;
+}
+
+ul.recent li span.date {
+	display: block;
+	padding-top: 3px;
+	font-family: 'Karla', serif;
+}
+
+ul.recent li span.title {
+	display: block;
+  font-family: 'Karla', 'Cormorant', serif;
+	font-size: 16.5pt;
+	line-height: 1.7em;
+}
+
+ul.recent li span.title a:link, ul.recent li span.title a:visited {
+	color: black;
+  border-bottom: 1px solid gray;
+  text-decoration: none;
+	padding-bottom: 0.2em;
+}
+
+ul.recent li span.title a:hover {
+	color: red;
+	border-bottom-color: red;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/*
+.older, .older:link, .older:visited {
+  display: inline-block;
+  margin-top: 3em;
+  font-family: "Karla", sans-serif;
+  color: gray;
+  border-bottom: 1px solid grey;
+  text-decoration: none;
+  margin-left: -20px;
+}
+a.older:hover {
+  color: red;
+  border-bottom-color: red;
+}
+*/
+
+figure img {
+  max-width: 100%;
+}
+
+figure.full-width-image {
+  display: block;
+  float: none;
+  margin: auto; padding: 1em 0 1em 0;
+  min-width: 100% !important;
+}
+
+@media all and (max-width: 700px) {
+
+  figure {
+    margin: 0; padding: 0;
+    display: block;
+    margin: auto; padding: 1em 0 1em 0;
+  }
+
+  .article-image-left {
+    display: block;
+    margin: auto; padding: 1em 0;
+    width: 100%;
+    max-width: 450px;
+  }
+
+  .opening-cover-image {
+    display: block;
+    margin: auto; padding: 1em 0 1em 0;
+    max-width: 350px;
+  }
+
+  figure figcaption {
+    font-size: 12pt;
+    font-family: 'Cormorant', serif;
+    color: lightslategrey;
+		font-style: italic;
+  }
+}
+
+@media all and (min-width: 701px) {
+
+  figure {
+    display: inline-block;
+    width: 120%;
+    margin: 1em 1em 1em -4em;
+  }
+
+  figure img {
+    max-width: 100%;
+  }
+
+  .article-image-left {
+    display: inline-block;
+    float: left;
+    margin: 0.4em 1.6em 1.4em -5em;
+  }
+
+  figure.full-length-3c-image, figure.full-length-2c-image {
+    display: block;
+    margin: 1em 1.6em 1em -6em;
+    min-width: 140% !important;
+    padding: 1em 0;
+    overflow:hidden;
+    height:1%;
+    position: relative;
+  }
+
+  figure.full-length-3c-image img {
+    float: left;
+    max-width: 30%;
+    margin-right: 1em;
+  }
+
+  figure.full-length-2c-image img {
+    float: left;
+    max-width: 44%;
+    margin-right: 1em;
+  }
+
+  figure figcaption {
+    font-size: 13pt;
+    font-family: 'Cormorant', serif;
+    color: lightslategrey;
+  }
+
+}
+
+/* Article Elements */
+
+article ol, article ul {
+  margin: 1.5em 0 1.6em 0; padding-bottom: 1em;
+  color: #555;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  width: 90%;
+  font-size: 13pt; line-height: 1.5em;
+  list-style-type: none;
+  list-style-type: decimal !ie; /*IE 7- hack*/
+}
+
+article ol {
+  counter-reset: li-counter;
+}
+
+article ol > li, article ul > li {
+  margin: 0; padding: 0;
+  padding-top: 1em;
+}
+
+article ol > li:before {
+  font-family: 'Karla', sans-serif;
+  display: inline-block;
+  width: 30px; margin-left: -30px;
+  content: counter(li-counter)' ';
+  counter-increment: li-counter;
+  color: red;
+  font-size: 12pt;
+}
+
+article ul > li:before {
+  font-family: 'Karla', sans-serif;
+  display: inline-block;
+  width: 30px; margin-left: -30px;
+  content: '− ';
+  color: red;
+  font-size: 12pt;
+  width: 25px;
+}
+
+article blockquote {
+  font-family: 'Cormorant', serif;
+  color: red;
+	font-weight: 400;
+  font-size: 17pt;
+  font-style: italic;
+}
+
+article blockquote strong, article blockquote strong {
+	font-family: 'Cormorant', serif;
+	font-weight: 700,
+}
+
+article blockquote em {
+  font-style: normal;
+}
+
+article .harvard-ref {
+  font-family: 'Cormorant', serif;
+  color: lightslategrey;
+}
+
+/* Audio player and music page */
+
+audio {
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+a.song {
+  float:left;
+  display: block;
+  width: 50px; height: 50px;
+  margin-top: 0.5em; margin-right: 1em; margin-bottom: 0.5em;
+  border: solid red 2px;
+  background-image: url('/img/play.png');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+a.song:link, a.song:visited, a.song:hover {
+  border: solid red 2px;
+}
+
+.emdash {
+  color: red;
+  font-family: 'Karla', serif;
+}
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video {
+
+}
+
+.vid {
+	position: relative;
+	width: 100%;
+	max-width: 800px;
+}

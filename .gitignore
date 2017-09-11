@@ -1,0 +1,16 @@
+# logs
+logs
+*.log
+*.bak
+*_bak
+npm-debug.log*
+
+# dependencies
+node_modules/
+
+# built assets
+dist/
+
+# refs, output etc.
+archive/
+*tar
