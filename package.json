@@ -1,7 +1,7 @@
 {
   "name": "gobbledygook",
-  "version": "1.0.0",
-  "description": "Maksim Yegorov's cabinet of simple machines",
+  "version": "1.0.1",
+  "description": "Maksim's cabinet of simple machines",
   "author": "Maksim Yegorov",
   "license": "MIT",
   "main": "build.js",
