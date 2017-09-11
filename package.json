@@ -7,8 +7,7 @@
   "main": "build.js",
   "scripts": {
     "pre-build": "npm install && rm -rf ./dist",
-    "start": "node .",
-    "deploy": "./deploy.sh"
+    "start": "node ."
   },
   "engines": {
     "node": ">=7"
